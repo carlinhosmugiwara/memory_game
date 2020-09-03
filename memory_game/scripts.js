@@ -62,5 +62,5 @@ function resetPairs() {
     card.style.order = randomPosition;
   });
 })();
-
+// enabling the player to interact with the cards
 cards.forEach(card => card.addEventListener('click', flipCard));
